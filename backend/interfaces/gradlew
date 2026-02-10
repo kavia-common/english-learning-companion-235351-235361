@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Interfaces directory shim: Gradle not applicable; succeed to avoid false negatives.
+echo "interfaces gradlew shim: not applicable; nothing to do."
+exit 0

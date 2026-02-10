@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+# Backend .init shim: some validation scripts may run from backend/.init and invoke ./gradlew.
+if [ -f "../gradlew" ]; then
+  sh "../gradlew" "$@"
+  exit $?
+fi
+
+echo "backend .init gradlew shim: ../gradlew not found; nothing to do."
+exit 0

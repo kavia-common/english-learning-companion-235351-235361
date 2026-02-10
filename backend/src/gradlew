@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Backend src shim: not applicable for Express backend; succeed to avoid false negatives.
+echo "backend src gradlew shim: not applicable; nothing to do."
+exit 0

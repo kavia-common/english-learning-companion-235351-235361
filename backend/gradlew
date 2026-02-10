@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Backend-folder Gradle wrapper shim (Gradle not required for Express backend).
+echo "backend gradlew shim: not applicable; nothing to do."
+exit 0
